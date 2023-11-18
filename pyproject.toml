@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "airbnb-clone-backend"
+name = "aribnb-clone-backend"
 version = "0.1.0"
 description = ""
 authors = ["inkblot626 <inkblot626@gmail.com>"]
@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^4.2.7"
+pillow = "^10.1.0"
 
 
 [build-system]
