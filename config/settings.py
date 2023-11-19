@@ -38,6 +38,7 @@ CUSTOM_APPS = ["common.apps.CommonConfig",
                 "reviews.apps.ReviewsConfig",
                 "wishlists.apps.WishlistsConfig",
                 "bookings.apps.BookingsConfig",
+                "medias.apps.MediasConfig",
                 ]
 
 
