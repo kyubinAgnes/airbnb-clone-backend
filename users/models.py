@@ -14,7 +14,6 @@ class User(AbstractUser):
     class CurrencyChoices(models.TextChoices):
         WON = "won", "Korean Won"
         USD = "usd", "Dollar"
-        EUR = "eur", "Euro"
 
     first_name = models.CharField(
         max_length=150,
@@ -24,7 +23,7 @@ class User(AbstractUser):
         max_length=150,
         editable=False,
     )
-    avatar = models.ImageField(blank=True)
+    avatar = models.URLField(blank=True)
     name = models.CharField(
         max_length=150,
         default="",
